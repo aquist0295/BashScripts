@@ -1,0 +1,23 @@
+Testing started: 
+
+    t =    29.40s Pressing Home button
+    t =    31.87s Open com.apple.Preferences
+    t =    31.87s     Launch com.apple.Preferences
+    t =    31.95s         Setting up automation session
+    t =    31.98s         Wait for com.apple.Preferences to idle
+    t =   133.60s     Terminate
+
+
+Result: Unknown
+
+Testing started: 
+
+    t =    29.40s Pressing Home button
+    t =    31.87s Open com.apple.Preferences
+    t =    31.87s     Launch com.apple.Preferences
+    t =    31.95s         Setting up automation session
+    t =    31.98s         Wait for com.apple.Preferences to idle
+    t =   133.60s     Terminate
+
+
+Result: false
