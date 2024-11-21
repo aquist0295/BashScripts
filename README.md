@@ -29,7 +29,7 @@
      ```
      $ ls -la <file name> NB: the file shoould have a .sh extension
      $ -rw-r--r--@  1 anthonyquist  staff  1336 Nov 20 12:41 <file name>
-     $ chmod u+x
+     $ chmod u+x NB: This command will make the script executable
      $ ls -la <file name>
      $ -rwxr--r--@  1 anthonyquist  staff   161 Nov 19 09:02 <file name>
      $ ./<filename.sh> OR bash <filename.sh> OR sh <filename.sh>
