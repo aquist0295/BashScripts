@@ -11,6 +11,11 @@
 # test.sh
   * This bash script demonstrates how to use positional parameters in bash to pass dynamic arguments to scripts for processing.
 
+# test_logs (directory)
+## This directory contains 3 files
+* Parse_log_files.sh: Script to parse all files within this directory 
+* testlog1.txt: sample log file 1
+* testlog2.txt: sample log file 2
 
 ## BUILT WITH
   * Bash/shell
