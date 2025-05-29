@@ -15,9 +15,9 @@ do
 ip_address=$(echo $line | awk '{print $4}')
 
 #getting network bits
-octet1=$(echo $ip_address | awk -F "." '{print substr{$1,1,3}}')
-octet2=$(echo $ip_address | awk -F "." '{print substr{$2,1,3}}')
-octet3=$(echo $ip_address | awk -F "." '{print substr{$3,1,3}}')
+octet1=$(echo $ip_address | awk -F "." '{print substr($1,7)}')
+octet2=$(echo $ip_address | awk -F "." '{print $2}')
+octet3=$(echo $ip_address | awk -F "." '{print $3}')
 dot="."
 
 #form network portion of IP adress
