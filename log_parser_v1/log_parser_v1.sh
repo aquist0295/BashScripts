@@ -12,7 +12,7 @@ while read -r line
 do
 
 #getting the current IP address from the current line
-ip_address=$(echo $line | awk '{print $9}')
+ip_address=$(echo $line | awk '{print $4}')
 
 #getting network bits
 octet1=$(echo $ip_address | awk -F "." '{print substr{$1,1,3}}')
